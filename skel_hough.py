@@ -15,7 +15,10 @@ from skimage import io
 from skimage import img_as_uint
 import glob
 from PIL import Image
-
+###########
+##########INPUT AGUMENTS############
+##DON'T FORGET TO UPDATE PATH
+##INPUT IN THE COMMEND LINE s1 and s2 (i usually do 3 and 5 respectively)
 path = "/Users/poojasuresh/Documents/iPQB/DumontLab/image_processing/test_skeletonize/houghtransforms/20171215_4"
 
 image_list = []
