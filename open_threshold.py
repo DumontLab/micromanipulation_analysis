@@ -19,7 +19,7 @@ from PIL import Image
 ##########INPUT AGUMENTS############
 ##DON'T FORGET TO UPDATE PATH
 ##INPUT IN THE COMMEND LINE s1 and s2 (i usually do 3 and 5 respectively)
-path = "/Users/poojasuresh/Documents/iPQB/DumontLab/image_processing/test_skeletonize/houghtransforms/20171215_4"
+path = "'/Users/alexandralong/Documents/UCSF/Dumont Lab/Analysis/Micromanipulation/Translation Fiji testing/old/Input1/*.tif'"
 
 image_list = []
 for filename in glob.glob('%s/testavg_*.tif'%path): #assuming gif
